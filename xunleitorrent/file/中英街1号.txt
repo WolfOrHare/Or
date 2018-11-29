@@ -1,0 +1,4 @@
+获取目标资源名:['中英街1号']
+获取目标资源评分: ['6.6']
+获取目标资源描述:['故事主要分为两部分，首部分阐述了4名被卷入六七暴动史史漩涡的年轻人，其命运受到亲共产主义左派及英国殖民政府之间爆发的大型暴动所左右。第二部分将时间推延至50多年后，发生于中港边界地区沙头角，在这里，3 位纠结于为香港争取自由的年轻人，与1位于首部分经历过六七暴动的老年人相遇，命运亦因而互相交叠影响。《中英街1号》是由赵崇基执导的香港剧情电影，由游学修、廖子妤、卢镇业、陈健朗、李英涛等主演。于2018年5月31日在中国香港上映。该片以1967年反英抗暴风潮引发的六七暴动为背景，检视香港的过去及未来。']
+获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2ZUhWdWJHVnBZaTU2ZFdsa1lUTTJNQzVqYjIwdk1UZ3hNQy9rdUszb2k3SG9vWmN4NVkrM0xrSkVNVEk0TU9tcm1PYTRoZWV5cE9pdnJlUzRyZVd0bCtlSmlDNXRjRFJhV2c9PVpa']

@@ -1,0 +1,4 @@
+获取目标资源名:['叶落无痕']
+获取目标资源评分: ['8.1']
+获取目标资源描述:['《叶落无痕》（Leave No Trace）讲述一对父女生活在一个城市森林公园中，而他们犯的一个小错误使他们被人发现，生活发生了天翻地覆的变化。']
+获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2ZG1sd0xucDFhV3QxT0M1amIyMHZNVGd3T1MvbGo3Ym9rTDNtbDZEbmw1VXVRa1F4TWpndzZhdVk1cmlGNUxpdDZJdXg1WStNNWEyWDU0bUlMbTF3TkZwYVpa']

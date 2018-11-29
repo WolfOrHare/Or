@@ -1,0 +1,4 @@
+获取目标资源名:['嗝嗝老师']
+获取目标资源评分: ['7.6']
+获取目标资源描述:['《嗝嗝老师》（Hichki）讲述患有抽动秽语综合征的女主人公奈娜。经过无数次面试失败后，终于找到理想的工作，成为了一名中学老师。然而她被指派的班级学生却是全校最顽皮的学生。']
+获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2ZG1sd0xucDFhV3QxT0M1amIyMHZNVGd4TUMvbGw1M2xsNTNvZ0lIbHVJZ3VRa1F4TWpndzZhdVk1cmlGNUxpdDVhMlg1NG1JTG0xd05GcGFaWg==']

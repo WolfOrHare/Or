@@ -1,0 +1,4 @@
+获取目标资源名:['修女']
+获取目标资源评分: ['6.2']
+获取目标资源描述:['一个年轻修女在罗马尼亚与世隔绝的修道院自杀，梵蒂冈派去一名神父和一名快结束见习期的修女展开调查，而神父有令人毛骨悚然的过去。他们一起揭开了教会邪恶的秘密，不仅冒着生命危险，还拿信仰和灵魂当赌注，面临着一股恶毒的力量，恶魔修女再次成为强大的威胁。']
+获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2ZG1sd0xucDFhV3QxT0M1amIyMHZNVGd4TUMva3Y2N2xwYk15TURFNExsUno1TGl0NWEyWDU0bUlMbTF3TkZwYVpa']

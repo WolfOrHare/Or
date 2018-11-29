@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends "base.html" %}
+
+{% block content %}
+<div class="posts">
+        <section class="post">
+            <header class="post-header">
+                    <div class="year"><a href="#">{{ post.update_time|date:'Y-m /d' }}</a></div>
+                    <a href="{% url 'blog_detail' id=post.id %}"><h3>{{ post.title }}</h3></a>
+                    <p class="post-meta">
+                    <h6><a class="post-category post-category-js" href="#">标签:{{ post.category }}</a></h6>
+                    <br/>
+                    </p>
+            </header>
+
+                <div class="post-description">
+                    <p>
+                        {{ post.content|safe }}
+                    </p>
+                </div>
+        </section>
+</div><!-- /.blog-post -->
+{% endblock %}
+</body>
+</html>

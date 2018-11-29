@@ -1,0 +1,232 @@
+2018-10-07 09:32:57,345---->crawl_url - INFO - 启动线程池!!!
+2018-10-07 09:33:00,349---->crawl_url - INFO - 影视资源列表第0页：
+2018-10-07 09:33:03,356---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-0
+2018-10-07 09:33:06,356---->crawl_url - INFO - 影视资源列表第1页：
+2018-10-07 09:33:09,362---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-1
+2018-10-07 09:35:47,069---->crawl_url - INFO - 启动线程池!!!
+2018-10-07 09:35:50,072---->crawl_url - INFO - 影视资源列表第0页：
+2018-10-07 09:35:53,077---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-0
+2018-10-07 09:35:55,690---->crawl_url - ERROR - 没有获取到列表中的地址信息，直接返回！
+2018-10-07 09:35:56,080---->crawl_url - INFO - 影视资源列表第1页：
+2018-10-07 09:35:58,336---->crawl_url - INFO - 1
+2018-10-07 09:35:58,337---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/chumendeshijie
+2018-10-07 09:35:59,089---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-1
+2018-10-07 09:36:02,648---->crawl_url - INFO - 下载页面的url：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/download/chumendeshijie/857BDB92A1994CD1A8658B91080E4246/1', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/738E5AF9FDEA48E8BD63D3CA86BDB6FB', '/play/chumendeshijie/1FAE5E7CF5A34C789C8122DC5E8C85F4', '/play/chumendeshijie/0CF19DBD5EA24E49A0970EA679E0EA9B']
+2018-10-07 09:36:02,651---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/watch/chumendeshijie/E2F5F7AA7509446EBB25DBE8050C2C08', '/watch/chumendeshijie/8F87B7DC2FE14CDFB7B1F706FACD103B', '/watch/chumendeshijie/4DEC59038F4E47CAA869CA5C5FB3D7A0', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/50C98655EA0641E1AE32E5457EE5992A']
+2018-10-07 09:36:04,655---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1
+2018-10-07 09:36:04,916---->crawl_url - INFO - 获取目标资源名:['楚门的世界']
+2018-10-07 09:36:04,916---->crawl_url - INFO - 获取目标资源评分:['9.2']
+2018-10-07 09:36:04,916---->crawl_url - INFO - 获取目标资源描述:['楚门（金•凯瑞 Jim Carrey 饰）是一个平凡得不能再平凡的人，除了一些有些稀奇的经历之外——初恋女友突然失踪、溺水身亡的父亲忽然似乎又出现在眼前，他和绝大多数30多岁的美国男人绝无异样。这令他倍感失落。他也曾试过离开自己生活了多年的地方，但总因种种理由而不能成行。直到有一天，他忽然发觉自己似乎一直在被人跟踪，无论他走到哪里，干什么事情。这种感觉愈来愈强烈。楚门决定不惜一切代价逃离这个他生活了30多年的地方，去寻找他的初恋女友。但他却发现自己怎样也逃不出去。真相其实很残忍。']
+2018-10-07 09:36:04,916---->crawl_url - INFO - 获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2TVRndVpHd3VlVGd3Y3k1dVpYUTZPVEl3THpFeU1EVXY1cVdhNlplbzU1cUU1TGlXNTVXTUwrYWxtdW1YcU9lYWhPUzRsdWVWakY5b1pDNXRjRFJhV2c9PVpa']
+2018-10-07 09:36:04,918---->crawl_url - INFO - 2
+2018-10-07 09:36:04,918---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/taitan
+2018-10-07 09:36:05,142---->crawl_url - INFO - 下载页面的url：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/4D209F82978B42848050F1C6289C87B3/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/download/taitan/A3DF044AFB834FA0A69A51279FE3201C/1']
+2018-10-07 09:36:05,143---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/watch/taitan/691E41B6C4B949A3889997CD8627D922']
+2018-10-07 09:36:07,145---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/taitan/A982BF49505149348E2718F8E4D475B8/1
+2018-10-07 09:36:07,145---->crawl_url - INFO - 获取目标资源评分:['4.2'],评分太低，不执行保存！！
+2018-10-07 09:36:07,146---->crawl_url - INFO - 3
+2018-10-07 09:36:07,146---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/beiyiwangdejijie
+2018-10-07 09:36:07,369---->crawl_url - INFO - 下载页面的url：[]
+2018-10-07 09:36:07,370---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/watch/beiyiwangdejijie/3E7EE41B9DF145A78231AFB5D1C1F048']
+2018-10-07 09:44:22,327---->crawl_url - INFO - 启动线程池!!!
+2018-10-07 09:44:25,327---->crawl_url - INFO - 影视资源列表第0页：
+2018-10-07 09:44:25,327---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:44:25,328---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-
+2018-10-07 09:44:28,330---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-0
+2018-10-07 09:44:31,332---->crawl_url - INFO - 影视资源列表第1页：
+2018-10-07 09:44:31,333---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:44:31,333---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-
+2018-10-07 09:44:31,420---->crawl_url - ERROR - 没有获取到列表中的地址信息，直接返回！
+2018-10-07 09:44:33,568---->crawl_url - INFO - 1
+2018-10-07 09:44:33,569---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/chumendeshijie
+2018-10-07 09:44:33,859---->crawl_url - INFO - 下载页面的url：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/download/chumendeshijie/857BDB92A1994CD1A8658B91080E4246/1', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/738E5AF9FDEA48E8BD63D3CA86BDB6FB', '/play/chumendeshijie/1FAE5E7CF5A34C789C8122DC5E8C85F4', '/play/chumendeshijie/0CF19DBD5EA24E49A0970EA679E0EA9B']
+2018-10-07 09:44:33,863---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/watch/chumendeshijie/E2F5F7AA7509446EBB25DBE8050C2C08', '/watch/chumendeshijie/8F87B7DC2FE14CDFB7B1F706FACD103B', '/watch/chumendeshijie/4DEC59038F4E47CAA869CA5C5FB3D7A0', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/50C98655EA0641E1AE32E5457EE5992A']
+2018-10-07 09:44:35,868---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1
+2018-10-07 09:44:40,061---->crawl_url - INFO - 获取目标资源名:['楚门的世界']
+2018-10-07 09:44:40,061---->crawl_url - INFO - 获取目标资源评分:['9.2']
+2018-10-07 09:44:40,062---->crawl_url - INFO - 获取目标资源描述:['楚门（金•凯瑞 Jim Carrey 饰）是一个平凡得不能再平凡的人，除了一些有些稀奇的经历之外——初恋女友突然失踪、溺水身亡的父亲忽然似乎又出现在眼前，他和绝大多数30多岁的美国男人绝无异样。这令他倍感失落。他也曾试过离开自己生活了多年的地方，但总因种种理由而不能成行。直到有一天，他忽然发觉自己似乎一直在被人跟踪，无论他走到哪里，干什么事情。这种感觉愈来愈强烈。楚门决定不惜一切代价逃离这个他生活了30多年的地方，去寻找他的初恋女友。但他却发现自己怎样也逃不出去。真相其实很残忍。']
+2018-10-07 09:44:40,062---->crawl_url - INFO - 获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2TVRndVpHd3VlVGd3Y3k1dVpYUTZPVEl3THpFeU1EVXY1cVdhNlplbzU1cUU1TGlXNTVXTUwrYWxtdW1YcU9lYWhPUzRsdWVWakY5b1pDNXRjRFJhV2c9PVpa']
+2018-10-07 09:44:40,063---->crawl_url - INFO - 2
+2018-10-07 09:44:40,063---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/taitan
+2018-10-07 09:44:40,365---->crawl_url - INFO - 下载页面的url：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/4D209F82978B42848050F1C6289C87B3/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/download/taitan/A3DF044AFB834FA0A69A51279FE3201C/1']
+2018-10-07 09:44:40,367---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/watch/taitan/691E41B6C4B949A3889997CD8627D922']
+2018-10-07 09:44:42,374---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/taitan/A982BF49505149348E2718F8E4D475B8/1
+2018-10-07 09:44:42,374---->crawl_url - INFO - 获取目标资源评分:['4.2'],评分太低，不执行保存！！
+2018-10-07 09:44:42,375---->crawl_url - INFO - 3
+2018-10-07 09:44:42,375---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/beiyiwangdejijie
+2018-10-07 09:44:42,630---->crawl_url - INFO - 下载页面的url：[]
+2018-10-07 09:44:42,632---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/watch/beiyiwangdejijie/3E7EE41B9DF145A78231AFB5D1C1F048']
+2018-10-07 09:44:44,634---->crawl_url - INFO - 拼接目标地址：http://www.chunxiao.tv/watch/beiyiwangdejijie/3E7EE41B9DF145A78231AFB5D1C1F048
+2018-10-07 09:44:44,634---->crawl_url - INFO - 获取目标资源评分:['5.2'],评分太低，不执行保存！！
+2018-10-07 09:44:44,634---->crawl_url - INFO - 4
+2018-10-07 09:44:44,635---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/dongrinuanyang
+2018-10-07 09:44:44,888---->crawl_url - INFO - 下载页面的url：['/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1']
+2018-10-07 09:44:44,890---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1', '/watch/dongrinuanyang/DDB2B2261BAD4D61BC9BB12064FD148F']
+2018-10-07 09:44:46,897---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1
+2018-10-07 09:44:46,897---->crawl_url - INFO - 获取目标资源评分:['3.0'],评分太低，不执行保存！！
+2018-10-07 09:44:46,898---->crawl_url - INFO - 5
+2018-10-07 09:44:46,898---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/qinvzizhirenzaijianghu
+2018-10-07 09:44:50,047---->crawl_url - INFO - 下载页面的url：['/download/qinvzizhirenzaijianghu/DA839F55B69144E5ACA505A929322453/1']
+2018-10-07 09:44:50,049---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/qinvzizhirenzaijianghu/DA839F55B69144E5ACA505A929322453/1', '/watch/qinvzizhirenzaijianghu/98C39C2840AB4543BF2398C89996335D']
+2018-10-07 09:44:52,057---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/qinvzizhirenzaijianghu/DA839F55B69144E5ACA505A929322453/1
+2018-10-07 09:44:52,057---->crawl_url - INFO - 获取目标资源评分:['3.0'],评分太低，不执行保存！！
+2018-10-07 09:44:52,057---->crawl_url - INFO - 6
+2018-10-07 09:44:52,057---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/danzhishentong
+2018-10-07 09:44:52,436---->crawl_url - INFO - 下载页面的url：[]
+2018-10-07 09:44:52,437---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/watch/danzhishentong/794747B6E6FA4E09A300042349B72C09']
+2018-10-07 09:44:54,441---->crawl_url - INFO - 拼接目标地址：http://www.chunxiao.tv/watch/danzhishentong/794747B6E6FA4E09A300042349B72C09
+2018-10-07 09:44:54,441---->crawl_url - INFO - 获取目标资源评分:['3.1'],评分太低，不执行保存！！
+2018-10-07 09:44:54,442---->crawl_url - INFO - 7
+2018-10-07 09:44:54,442---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/elingzhijia
+2018-10-07 09:44:54,721---->crawl_url - INFO - 下载页面的url：['/download/elingzhijia/ACD3AB4AB59D4BD8828BDAD25A40EE20/1']
+2018-10-07 09:44:54,723---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/elingzhijia/ACD3AB4AB59D4BD8828BDAD25A40EE20/1']
+2018-10-07 09:44:56,725---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/elingzhijia/ACD3AB4AB59D4BD8828BDAD25A40EE20/1
+2018-10-07 09:44:56,726---->crawl_url - INFO - 获取目标资源评分:['4.2'],评分太低，不执行保存！！
+2018-10-07 09:44:56,726---->crawl_url - INFO - 8
+2018-10-07 09:44:56,726---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/gegelaoshi
+2018-10-07 09:45:00,400---->crawl_url - INFO - 下载页面的url：['/download/gegelaoshi/5B550383FA61409FBDACB9E4CF4D07F6/1']
+2018-10-07 09:45:00,402---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/gegelaoshi/5B550383FA61409FBDACB9E4CF4D07F6/1', '/watch/gegelaoshi/781E6C92EB424A66B6F5F0388506429C']
+2018-10-07 09:45:02,408---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/gegelaoshi/5B550383FA61409FBDACB9E4CF4D07F6/1
+2018-10-07 09:45:02,694---->crawl_url - INFO - 获取目标资源名:['嗝嗝老师']
+2018-10-07 09:45:02,695---->crawl_url - INFO - 获取目标资源评分:['7.6']
+2018-10-07 09:45:02,695---->crawl_url - INFO - 获取目标资源描述:['《嗝嗝老师》（Hichki）讲述患有抽动秽语综合征的女主人公奈娜。经过无数次面试失败后，终于找到理想的工作，成为了一名中学老师。然而她被指派的班级学生却是全校最顽皮的学生。']
+2018-10-07 09:45:02,695---->crawl_url - INFO - 获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2ZG1sd0xucDFhV3QxT0M1amIyMHZNVGd4TUMvbGw1M2xsNTNvZ0lIbHVJZ3VRa1F4TWpndzZhdVk1cmlGNUxpdDVhMlg1NG1JTG0xd05GcGFaWg==']
+2018-10-07 09:45:02,696---->crawl_url - INFO - 9
+2018-10-07 09:45:02,697---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/xiunv
+2018-10-07 09:45:02,974---->crawl_url - INFO - 下载页面的url：['/download/xiunv/67BFFFCF482E421F97CB7656B79CD806/1']
+2018-10-07 09:45:02,976---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/xiunv/67BFFFCF482E421F97CB7656B79CD806/1', '/watch/xiunv/F46AD9F712BD4BFCBBFB631F983694AF']
+2018-10-07 09:45:04,983---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/xiunv/67BFFFCF482E421F97CB7656B79CD806/1
+2018-10-07 09:45:05,252---->crawl_url - INFO - 获取目标资源名:['修女']
+2018-10-07 09:45:05,253---->crawl_url - INFO - 获取目标资源评分:['6.2']
+2018-10-07 09:45:05,253---->crawl_url - INFO - 获取目标资源描述:['一个年轻修女在罗马尼亚与世隔绝的修道院自杀，梵蒂冈派去一名神父和一名快结束见习期的修女展开调查，而神父有令人毛骨悚然的过去。他们一起揭开了教会邪恶的秘密，不仅冒着生命危险，还拿信仰和灵魂当赌注，面临着一股恶毒的力量，恶魔修女再次成为强大的威胁。']
+2018-10-07 09:45:05,253---->crawl_url - INFO - 获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2ZG1sd0xucDFhV3QxT0M1amIyMHZNVGd4TUMva3Y2N2xwYk15TURFNExsUno1TGl0NWEyWDU0bUlMbTF3TkZwYVpa']
+2018-10-07 09:45:05,255---->crawl_url - INFO - 10
+2018-10-07 09:45:05,255---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/jiepoushilingyishijianzhinanshengxiushe
+2018-10-07 09:45:05,496---->crawl_url - INFO - 下载页面的url：['/download/jiepoushilingyishijianzhinanshengxiushe/E81A0577F9FE4EC4B17326606CDD4AFE/1']
+2018-10-07 09:45:05,499---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/jiepoushilingyishijianzhinanshengxiushe/E81A0577F9FE4EC4B17326606CDD4AFE/1', '/watch/jiepoushilingyishijianzhinanshengxiushe/144F6A51FE864CD0BE805232039FC368', '/watch/jiepoushilingyishijianzhinanshengxiushe/F063C32A96444585BDF961D72E838776', '/watch/jiepoushilingyishijianzhinanshengxiushe/31B925DE23664A4EBC4D954B2152F236']
+2018-10-07 09:45:07,503---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/jiepoushilingyishijianzhinanshengxiushe/E81A0577F9FE4EC4B17326606CDD4AFE/1
+2018-10-07 09:45:07,503---->crawl_url - INFO - 获取目标资源评分:['2.3'],评分太低，不执行保存！！
+2018-10-07 09:45:07,503---->crawl_url - INFO - 11
+2018-10-07 09:45:07,504---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/mafanlekezhan
+2018-10-07 09:45:11,155---->crawl_url - INFO - 下载页面的url：['/download/mafanlekezhan/9C5902A6553240CF81AD120D5B96BB4E/1']
+2018-10-07 09:45:11,157---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/mafanlekezhan/9C5902A6553240CF81AD120D5B96BB4E/1', '/watch/mafanlekezhan/81A63CB378C04AD9AC96D8DFD1A9FCB4', '/watch/mafanlekezhan/0F949D3D09C942E8B4E507A1116BFEBD']
+2018-10-07 09:45:13,161---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/mafanlekezhan/9C5902A6553240CF81AD120D5B96BB4E/1
+2018-10-07 09:45:13,162---->crawl_url - INFO - 获取目标资源评分:['3.0'],评分太低，不执行保存！！
+2018-10-07 09:45:13,162---->crawl_url - INFO - 12
+2018-10-07 09:45:13,162---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/zhe-jiushijiewuzhitianshengwuzhe
+2018-10-07 09:45:13,416---->crawl_url - INFO - 下载页面的url：['/download/zhe-jiushijiewuzhitianshengwuzhe/141D4BF9681540818657FB6598EFADAA/1']
+2018-10-07 09:45:13,417---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/zhe-jiushijiewuzhitianshengwuzhe/141D4BF9681540818657FB6598EFADAA/1', '/watch/zhe-jiushijiewuzhitianshengwuzhe/F1CE4A73617F46AC8FD88163E340E321']
+2018-10-07 09:45:15,423---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/zhe-jiushijiewuzhitianshengwuzhe/141D4BF9681540818657FB6598EFADAA/1
+2018-10-07 09:45:15,423---->crawl_url - INFO - 获取目标资源评分:['3.5'],评分太低，不执行保存！！
+2018-10-07 09:45:15,424---->crawl_url - INFO - 13
+2018-10-07 09:45:15,424---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/duye-zhimingshouhuzhe
+2018-10-07 09:45:15,708---->crawl_url - INFO - 下载页面的url：['/download/duye-zhimingshouhuzhe/48B23F8163CC44F09210D8912DA86472/1']
+2018-10-07 09:45:15,709---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/duye-zhimingshouhuzhe/48B23F8163CC44F09210D8912DA86472/1', '/watch/duye-zhimingshouhuzhe/CF0200159126436FBAD469CF8DD683CB']
+2018-10-07 09:45:17,714---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/duye-zhimingshouhuzhe/48B23F8163CC44F09210D8912DA86472/1
+2018-10-07 09:45:23,029---->crawl_url - INFO - 启动线程池!!!
+2018-10-07 09:45:26,031---->crawl_url - INFO - 影视资源列表第0页：
+2018-10-07 09:45:26,031---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:45:26,032---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-
+2018-10-07 09:45:28,324---->crawl_url - ERROR - 没有获取到列表中的地址信息，直接返回！
+2018-10-07 09:45:29,034---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-0
+2018-10-07 09:45:32,038---->crawl_url - INFO - 影视资源列表第1页：
+2018-10-07 09:45:32,038---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:45:32,038---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-
+2018-10-07 09:45:34,270---->crawl_url - INFO - 1
+2018-10-07 09:45:34,271---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/chumendeshijie
+2018-10-07 09:45:34,585---->crawl_url - INFO - 下载页面的url：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/download/chumendeshijie/857BDB92A1994CD1A8658B91080E4246/1', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/738E5AF9FDEA48E8BD63D3CA86BDB6FB', '/play/chumendeshijie/1FAE5E7CF5A34C789C8122DC5E8C85F4', '/play/chumendeshijie/0CF19DBD5EA24E49A0970EA679E0EA9B']
+2018-10-07 09:45:34,588---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/watch/chumendeshijie/E2F5F7AA7509446EBB25DBE8050C2C08', '/watch/chumendeshijie/8F87B7DC2FE14CDFB7B1F706FACD103B', '/watch/chumendeshijie/4DEC59038F4E47CAA869CA5C5FB3D7A0', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/50C98655EA0641E1AE32E5457EE5992A']
+2018-10-07 09:45:35,045---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-1
+2018-10-07 09:45:36,595---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1
+2018-10-07 09:45:36,894---->crawl_url - INFO - 获取目标资源名:['楚门的世界']
+2018-10-07 09:45:36,894---->crawl_url - INFO - 获取目标资源评分:['9.2']
+2018-10-07 09:45:36,894---->crawl_url - INFO - 获取目标资源描述:['楚门（金•凯瑞 Jim Carrey 饰）是一个平凡得不能再平凡的人，除了一些有些稀奇的经历之外——初恋女友突然失踪、溺水身亡的父亲忽然似乎又出现在眼前，他和绝大多数30多岁的美国男人绝无异样。这令他倍感失落。他也曾试过离开自己生活了多年的地方，但总因种种理由而不能成行。直到有一天，他忽然发觉自己似乎一直在被人跟踪，无论他走到哪里，干什么事情。这种感觉愈来愈强烈。楚门决定不惜一切代价逃离这个他生活了30多年的地方，去寻找他的初恋女友。但他却发现自己怎样也逃不出去。真相其实很残忍。']
+2018-10-07 09:45:36,894---->crawl_url - INFO - 获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2TVRndVpHd3VlVGd3Y3k1dVpYUTZPVEl3THpFeU1EVXY1cVdhNlplbzU1cUU1TGlXNTVXTUwrYWxtdW1YcU9lYWhPUzRsdWVWakY5b1pDNXRjRFJhV2c9PVpa']
+2018-10-07 09:45:36,896---->crawl_url - INFO - 2
+2018-10-07 09:45:36,896---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/taitan
+2018-10-07 09:45:37,216---->crawl_url - INFO - 下载页面的url：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/4D209F82978B42848050F1C6289C87B3/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/download/taitan/A3DF044AFB834FA0A69A51279FE3201C/1']
+2018-10-07 09:45:37,219---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/watch/taitan/691E41B6C4B949A3889997CD8627D922']
+2018-10-07 09:45:39,225---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/taitan/A982BF49505149348E2718F8E4D475B8/1
+2018-10-07 09:45:39,225---->crawl_url - INFO - 获取目标资源评分:['4.2'],评分太低，不执行保存！！
+2018-10-07 09:45:39,225---->crawl_url - INFO - 3
+2018-10-07 09:45:39,225---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/beiyiwangdejijie
+2018-10-07 09:46:34,530---->crawl_url - INFO - 启动线程池!!!
+2018-10-07 09:46:37,532---->crawl_url - INFO - 影视资源列表第0页：
+2018-10-07 09:46:37,533---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:46:37,533---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-
+2018-10-07 09:46:39,829---->crawl_url - ERROR - 没有获取到列表中的地址信息，直接返回！
+2018-10-07 09:46:40,537---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-0
+2018-10-07 09:48:19,829---->crawl_url - INFO - 启动线程池!!!
+2018-10-07 09:48:22,833---->crawl_url - INFO - 影视资源列表第0页：
+2018-10-07 09:48:25,097---->crawl_url - ERROR - 没有获取到列表中的地址信息，直接返回！
+2018-10-07 09:48:25,838---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-0
+2018-10-07 09:48:28,842---->crawl_url - INFO - 影视资源列表第1页：
+2018-10-07 09:48:31,087---->crawl_url - INFO - 1
+2018-10-07 09:48:31,088---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:48:31,088---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/chumendeshijie
+2018-10-07 09:48:31,387---->crawl_url - INFO - 下载页面的url：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/download/chumendeshijie/857BDB92A1994CD1A8658B91080E4246/1', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/738E5AF9FDEA48E8BD63D3CA86BDB6FB', '/play/chumendeshijie/1FAE5E7CF5A34C789C8122DC5E8C85F4', '/play/chumendeshijie/0CF19DBD5EA24E49A0970EA679E0EA9B']
+2018-10-07 09:48:31,390---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/watch/chumendeshijie/E2F5F7AA7509446EBB25DBE8050C2C08', '/watch/chumendeshijie/8F87B7DC2FE14CDFB7B1F706FACD103B', '/watch/chumendeshijie/4DEC59038F4E47CAA869CA5C5FB3D7A0', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/50C98655EA0641E1AE32E5457EE5992A']
+2018-10-07 09:48:31,849---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-1
+2018-10-07 09:48:33,397---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1
+2018-10-07 09:48:38,348---->crawl_url - INFO - 获取目标资源名:['楚门的世界']
+2018-10-07 09:48:38,348---->crawl_url - INFO - 获取目标资源评分:['9.2']
+2018-10-07 09:48:38,348---->crawl_url - INFO - 获取目标资源描述:['楚门（金•凯瑞 Jim Carrey 饰）是一个平凡得不能再平凡的人，除了一些有些稀奇的经历之外——初恋女友突然失踪、溺水身亡的父亲忽然似乎又出现在眼前，他和绝大多数30多岁的美国男人绝无异样。这令他倍感失落。他也曾试过离开自己生活了多年的地方，但总因种种理由而不能成行。直到有一天，他忽然发觉自己似乎一直在被人跟踪，无论他走到哪里，干什么事情。这种感觉愈来愈强烈。楚门决定不惜一切代价逃离这个他生活了30多年的地方，去寻找他的初恋女友。但他却发现自己怎样也逃不出去。真相其实很残忍。']
+2018-10-07 09:48:38,349---->crawl_url - INFO - 获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2TVRndVpHd3VlVGd3Y3k1dVpYUTZPVEl3THpFeU1EVXY1cVdhNlplbzU1cUU1TGlXNTVXTUwrYWxtdW1YcU9lYWhPUzRsdWVWakY5b1pDNXRjRFJhV2c9PVpa']
+2018-10-07 09:48:38,350---->crawl_url - INFO - 2
+2018-10-07 09:48:38,350---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:48:38,350---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/taitan
+2018-10-07 09:48:38,571---->crawl_url - INFO - 下载页面的url：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/4D209F82978B42848050F1C6289C87B3/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/download/taitan/A3DF044AFB834FA0A69A51279FE3201C/1']
+2018-10-07 09:48:38,574---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/watch/taitan/691E41B6C4B949A3889997CD8627D922']
+2018-10-07 09:48:40,577---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/taitan/A982BF49505149348E2718F8E4D475B8/1
+2018-10-07 09:48:40,577---->crawl_url - INFO - 获取目标资源评分:['4.2'],评分太低，不执行保存！！
+2018-10-07 09:48:40,577---->crawl_url - INFO - 3
+2018-10-07 09:48:40,577---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:48:40,578---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/beiyiwangdejijie
+2018-10-07 09:48:40,808---->crawl_url - INFO - 下载页面的url：[]
+2018-10-07 09:48:40,809---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/watch/beiyiwangdejijie/3E7EE41B9DF145A78231AFB5D1C1F048']
+2018-10-07 09:48:42,815---->crawl_url - INFO - 拼接目标地址：http://www.chunxiao.tv/watch/beiyiwangdejijie/3E7EE41B9DF145A78231AFB5D1C1F048
+2018-10-07 09:48:42,815---->crawl_url - INFO - 获取目标资源评分:['5.2'],评分太低，不执行保存！！
+2018-10-07 09:48:42,816---->crawl_url - INFO - 4
+2018-10-07 09:48:42,817---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:48:42,818---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/dongrinuanyang
+2018-10-07 09:48:43,216---->crawl_url - INFO - 下载页面的url：['/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1']
+2018-10-07 09:48:43,218---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1', '/watch/dongrinuanyang/DDB2B2261BAD4D61BC9BB12064FD148F']
+2018-10-07 09:50:11,928---->crawl_url - INFO - 启动线程池!!!
+2018-10-07 09:50:14,929---->crawl_url - INFO - 影视资源列表第0页：
+2018-10-07 09:50:17,335---->crawl_url - ERROR - 没有获取到列表中的地址信息，直接返回！
+2018-10-07 09:50:17,933---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-0
+2018-10-07 09:50:20,935---->crawl_url - INFO - 影视资源列表第1页：
+2018-10-07 09:50:23,943---->crawl_url - INFO - http://www.chunxiao.tv/explore/dianying/p-1
+2018-10-07 09:50:24,486---->crawl_url - INFO - 1
+2018-10-07 09:50:24,487---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:50:24,487---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/chumendeshijie
+2018-10-07 09:50:24,784---->crawl_url - INFO - (['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/download/chumendeshijie/857BDB92A1994CD1A8658B91080E4246/1', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/738E5AF9FDEA48E8BD63D3CA86BDB6FB', '/play/chumendeshijie/1FAE5E7CF5A34C789C8122DC5E8C85F4', '/play/chumendeshijie/0CF19DBD5EA24E49A0970EA679E0EA9B'], ['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/watch/chumendeshijie/E2F5F7AA7509446EBB25DBE8050C2C08', '/watch/chumendeshijie/8F87B7DC2FE14CDFB7B1F706FACD103B', '/watch/chumendeshijie/4DEC59038F4E47CAA869CA5C5FB3D7A0', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/50C98655EA0641E1AE32E5457EE5992A'])
+2018-10-07 09:50:24,785---->crawl_url - INFO - 下载页面的url：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/download/chumendeshijie/857BDB92A1994CD1A8658B91080E4246/1', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/738E5AF9FDEA48E8BD63D3CA86BDB6FB', '/play/chumendeshijie/1FAE5E7CF5A34C789C8122DC5E8C85F4', '/play/chumendeshijie/0CF19DBD5EA24E49A0970EA679E0EA9B']
+2018-10-07 09:50:24,787---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1', '/download/chumendeshijie/D1C7A1D89A7B40FA8AB27F058BEE913F/1', '/watch/chumendeshijie/E2F5F7AA7509446EBB25DBE8050C2C08', '/watch/chumendeshijie/8F87B7DC2FE14CDFB7B1F706FACD103B', '/watch/chumendeshijie/4DEC59038F4E47CAA869CA5C5FB3D7A0', '/play/chumendeshijie/C4D02233D5914560A36CAE5CC5D8308E', '/play/chumendeshijie/50C98655EA0641E1AE32E5457EE5992A']
+2018-10-07 09:50:26,793---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/chumendeshijie/85D14DC68B64494191F6144FC996BEE6/1
+2018-10-07 09:50:27,056---->crawl_url - INFO - 获取目标资源名:['楚门的世界']
+2018-10-07 09:50:27,057---->crawl_url - INFO - 获取目标资源评分:['9.2']
+2018-10-07 09:50:27,057---->crawl_url - INFO - 获取目标资源描述:['楚门（金•凯瑞 Jim Carrey 饰）是一个平凡得不能再平凡的人，除了一些有些稀奇的经历之外——初恋女友突然失踪、溺水身亡的父亲忽然似乎又出现在眼前，他和绝大多数30多岁的美国男人绝无异样。这令他倍感失落。他也曾试过离开自己生活了多年的地方，但总因种种理由而不能成行。直到有一天，他忽然发觉自己似乎一直在被人跟踪，无论他走到哪里，干什么事情。这种感觉愈来愈强烈。楚门决定不惜一切代价逃离这个他生活了30多年的地方，去寻找他的初恋女友。但他却发现自己怎样也逃不出去。真相其实很残忍。']
+2018-10-07 09:50:27,057---->crawl_url - INFO - 获取目标资源地址:['thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2TVRndVpHd3VlVGd3Y3k1dVpYUTZPVEl3THpFeU1EVXY1cVdhNlplbzU1cUU1TGlXNTVXTUwrYWxtdW1YcU9lYWhPUzRsdWVWakY5b1pDNXRjRFJhV2c9PVpa']
+2018-10-07 09:50:27,058---->crawl_url - INFO - 2
+2018-10-07 09:50:27,058---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:50:27,058---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/taitan
+2018-10-07 09:50:27,281---->crawl_url - INFO - (['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/4D209F82978B42848050F1C6289C87B3/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/download/taitan/A3DF044AFB834FA0A69A51279FE3201C/1'], ['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/watch/taitan/691E41B6C4B949A3889997CD8627D922'])
+2018-10-07 09:50:27,282---->crawl_url - INFO - 下载页面的url：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/4D209F82978B42848050F1C6289C87B3/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/download/taitan/A3DF044AFB834FA0A69A51279FE3201C/1']
+2018-10-07 09:50:27,283---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/taitan/A982BF49505149348E2718F8E4D475B8/1', '/download/taitan/AB04A6E789C54D9085C95F181EF9CF0D/1', '/watch/taitan/691E41B6C4B949A3889997CD8627D922']
+2018-10-07 09:50:29,288---->crawl_url - INFO - get_downurl:http://www.chunxiao.tv/download/taitan/A982BF49505149348E2718F8E4D475B8/1
+2018-10-07 09:50:29,289---->crawl_url - INFO - 获取目标资源评分:['4.2'],评分太低，不执行保存！！
+2018-10-07 09:50:29,289---->crawl_url - INFO - 3
+2018-10-07 09:50:29,289---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:50:29,289---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/beiyiwangdejijie
+2018-10-07 09:50:32,833---->crawl_url - INFO - ([], ['/watch/beiyiwangdejijie/3E7EE41B9DF145A78231AFB5D1C1F048'])
+2018-10-07 09:50:32,833---->crawl_url - INFO - 下载页面的url：[]
+2018-10-07 09:50:32,835---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/watch/beiyiwangdejijie/3E7EE41B9DF145A78231AFB5D1C1F048']
+2018-10-07 09:50:34,839---->crawl_url - INFO - 拼接目标地址：http://www.chunxiao.tv/watch/beiyiwangdejijie/3E7EE41B9DF145A78231AFB5D1C1F048
+2018-10-07 09:50:34,839---->crawl_url - INFO - 获取目标资源评分:['5.2'],评分太低，不执行保存！！
+2018-10-07 09:50:34,840---->crawl_url - INFO - 4
+2018-10-07 09:50:34,840---->crawl_url - INFO - http://www.chunxiao.tv
+2018-10-07 09:50:34,840---->crawl_url - INFO - 详情页地址：http://www.chunxiao.tv/album/dongrinuanyang
+2018-10-07 09:50:35,072---->crawl_url - INFO - (['/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1'], ['/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1', '/watch/dongrinuanyang/DDB2B2261BAD4D61BC9BB12064FD148F'])
+2018-10-07 09:50:35,072---->crawl_url - INFO - 下载页面的url：['/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1']
+2018-10-07 09:50:35,073---->crawl_url - INFO - 当下载地址不存在时使用在线地址：['/download/dongrinuanyang/CFE59FF84A8340CAB6B245AE7A95342B/1', '/watch/dongrinuanyang/DDB2B2261BAD4D61BC9BB12064FD148F']
