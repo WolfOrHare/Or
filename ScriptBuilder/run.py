@@ -8,6 +8,7 @@
 # @Software: PyCharm
 
 from QuerySQL import QuerySQL
+from addParameters import addParameters
 
 class run:
     def __init__(self):
@@ -27,6 +28,7 @@ class run:
         server = conlist[0]
         con = conlist[1]
         return server,con
+
 
     # 根据t_md_prd_cfg_ver表获取产品当前模板id，查询结果为一级属性，如果为单值，该级别下有若干属性使用config_version_id字段与t_md_prd_prop关联，查询所有属性
     # 获取产品模板配置版本,返回版本号
@@ -49,9 +51,24 @@ class run:
         server.stop()
         con.close()
         return result
+    # 返回当前产品的进件规则
+    def get_loanroule(self, productid):
+        sql = '''获取进件规则脚本'''
+        res = run.get_config_version(sql)
 
-    def get_version(self):
-        sql = '''SELECT CONFIG_VERSION_ID FROM t_md_prd_cfg_ver WHERE product_id= 537  and LATEST_VERSION = 'N8701'  and status ='B142002' '''
+    # 返回开户信息
+    def get_openuser(self):
+        sql = '''获取产品开户信息'''
+        res = run.get_basic_config(sql)
+
+    def deleteAute(self,content):
+        if
+
+
+
+    # 返回当前产品的配置模版id
+    def get_version(self,productId):
+        sql = '''SELECT CONFIG_VERSION_ID FROM t_md_prd_cfg_ver WHERE product_id= %s  and LATEST_VERSION = 'N8701'  and status ='B142002' ''' % productId
         res = run.get_config_version(sql)
         return res[0]
 
@@ -234,8 +251,10 @@ class run:
                         keys_.append('"' + k + '":""}}')
 
         return format_keys.join(keys_)
+
+    # 组织进件脚本信息
     def assembleInfo(self):
-        version = self.get_version()
+        version = self.get_version(526)
         attribute = self.get_no_extend()
         attributeN = self.get_group_attributeN()
         attributeK = self.get_group_attributeK()
@@ -246,7 +265,10 @@ class run:
         model = self.assemble_model(modelN, modleK)
         model26 =  self.get_extend_modle26()
         group = self.assemble_group(attributeN, attributeK)
-        print('{' + attribute + group + ',' + '"modelBusinessData": [' + model +','+model26+ ']' + '}')
+        content = '{' + attribute + group + ',' + '"modelBusinessData": [' + model +','+model26+ ']' + '}'
+
+        return content
+
 
 if __name__ == '__main__':
     # t1 = {38L: 2, 39L: 4, 72L: 1, 77L: 3, 78L: 3, 52L: 2, 86L: 5, 89L: 2, 92L: 4, 93L: 3}
@@ -300,5 +322,7 @@ if __name__ == '__main__':
     # print('{'+x1  +x5 +',' + '"modelBusinessData": ['+ x4 +']'+'}')
 
     run = run()
-    x = run.assembleInfo()
-    print(x)
+    info = run.assembleInfo()
+    parameter = addParameters()
+    parameter.add_parameters(info)
+

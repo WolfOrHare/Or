@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-from QuerySQL import QuerySQL
+# from QuerySQL import QuerySQL
 import json
 sql = '''SELECT * FROM t_md_prd_model  WHERE config_version_id =2182 '''
 class test:
     def __init__(self):
-        self.con_db = QuerySQL()
+        # self.con_db = QuerySQL()
 
         self.conlist = []
 
@@ -105,17 +105,21 @@ class test:
                         dic_json[key] = v
                     elif isinstance(dic_json[key],dict):
                         check_json_value(dic_json[key],k,v)
+
                     elif isinstance(dic_json[key],list):
-                        check_json_value(dic_json[key][0], k, v)
+                        for dic_ in dic_json[key]:
+                            check_json_value(dic_, k, v)
+
 
         print("date_json 变更前   :")
         print(date_json)
-        check_json_value(date_json,'orgnCreditCode','133333333331')
+        check_json_value(date_json,'oldAppId','133333333331')
         check_json_value(date_json, 'accAccount', '133333333332')
         check_json_value(date_json, 'saleLicenceCode', '133333333334')
         check_json_value(date_json, 'communicateAddressCity', '133333333335')
         check_json_value(date_json, 'communicateAddressDistrict', '133333333336')
-        check_json_value(date_json, 'currentOverdueAmt', '133333333337')
+        check_json_value(date_json, 'businessChannelName', '133333333337')
+        check_json_value(date_json, 'businessChannelCode', '222222222222222222')
         print("date_json 变更后   :")
         print(date_json)
 

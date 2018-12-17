@@ -16,28 +16,35 @@ class addParameters:
     def __init__(self):
         path = os.path.dirname(os.path.abspath('.'))+'/ScriptBuilder'
         self.conf_path = path +'/config.ini'
+        self.conf = ConfigParser()
+        self.conf.read(self.conf_path, encoding='UTF-8')
+        self.invalid = ['loanFeeExtraInfos', 'lonAttachs', 'customerInfo', 'areaList', 'modelBusinessData', 'propertyMap',
+               'modelId', 'lonContacts', 'tLonAccounts', 'tLonCreditReport']
 
     def get_config(self):
-        conf = ConfigParser()
-        conf.read(self.conf_path,encoding = 'UTF-8')
-        return conf
+        para_list = []
+
+        config = self.conf.items("LOANINFO")
+
+        for i in config:
+            para_list.append(i[0])
+
+        return para_list
 
     # 比较配置的参数,如果不存在则打印不存在的标签提示
     def compare(self,keys):
-        para_list = []
-        conf = self.get_config()
-        config = conf.items("LOANINFO")
-        for i in config:
-            para_list.append(str(i[0]))
-        invalid = ['loanFeeExtraInfos','lonAttachs','customerInfo','areaList','modelBusinessData', 'propertyMap',
-                   'modelId', 'lonContacts', 'tLonAccounts','tLonCreditReport']
+
+        invalid = self.invalid
+        para_list = self.get_config()
+
         if keys.lower() in para_list and keys not in invalid:
-            values = conf.get("LOANINFO", keys)
+            values = self.conf.get("LOANINFO", keys)
             return values
         elif keys.lower() not in para_list and keys not in invalid:
             print("配置不存在的标签:%s" % keys)
 
-    def add_parameters(self,centent):
+
+    def add_parameters_(self,centent):
         json_data = json.load(centent)
         invalid = ['loanFeeExtraInfos','lonAttachs','customerInfo','areaList','modelBusinessData', 'propertyMap',
                    'modelId', 'lonContacts', 'tLonAccounts','tLonCreditReport']
@@ -89,8 +96,56 @@ class addParameters:
             return  centent
 
 
+    def add_parameters(self, centent):
+        date_json = json.loads(centent)
+        # date_json = json.loads(SendRegisterVerificationCodejson_txt)
+        print(date_json)
+        print("*" * 100)
+        # 遍历json文件所有的key对应的value
+        dic = {}
+
+        def json_txt(dic_json):
+            if isinstance(dic_json, dict):  # 判断是否是字典类型isinstance 返回True false
+                for key in dic_json:
+                    if isinstance(dic_json[key], dict):  # 如果dic_json[key]依旧是字典类型
+                        print("****key1--：%s value--: %s" % (key, dic_json[key]))
+                        json_txt(dic_json[key])
+                        dic[key] = dic_json[key]
+                    elif isinstance(dic_json[key], list): # 如果是list，获取所有内容
+                        for dic_ in dic_json[key]:
+                            print("****key2--：%s value--: %s" % (key, dic_))
+                            json_txt(dic_)
+                            # dic[key] = dic_
+                    else:
+                        print("****key3--：%s value--: %s" % (key, dic_json[key]))
+                        dic[key] = dic_json[key]
+
+        json_txt(date_json)
+        print("dic ---: " + str(dic))
+
+        def check_json_value(dic_json,k,v):
+            if isinstance(dic_json,dict):
+                for key in dic_json:
+                    if key == k:
+                        dic_json[key] = v
+                    elif isinstance(dic_json[key],dict):
+                        check_json_value(dic_json[key],k,v)
+                    elif isinstance(dic_json[key],list):
+                        for dic_ in dic_json[key]:
+                            check_json_value(dic_, k, v)
+
+
+        print("date_json 变更前   :")
+        print(date_json)
+        for i in dic:
+            if i not in self.invalid:
+                v = self.compare(i)
+                check_json_value(date_json,i,v)
+        print("date_json 变更后   :")
+        print(json.dumps(date_json))
+
 if __name__ == '__main__':
-    centent ={"productId":"",
+    centent ='''{"productId":"",
               "modelBusinessData": [{"modelId":"38","propertyMap": {"saleLicenceCode":"","orgnCreditCode":""}},
                                     {"modelId":"39","propertyMap":
                                         {"communicateAddressDistrict":"", "communicateAddressCity":"",
@@ -117,6 +172,6 @@ if __name__ == '__main__':
                                 "accBankCard":"","accCity":"","accProvince":"","accBankBranch":"","accBankName":"",
                                 "accBankCardBindId":"","uumCustNo":"","extendFieldString":"","accSubAccountNo":""}],
               "tLonCreditReport": [{"score":"","riskGrade":""}], "loanFeeExtraInfos": [{"infoValue":"","infoName":""}],
-              "areaList": [{"detailAddr":"","street":"","district":"","city":"","province":"","addrType":""}]}
+              "areaList": [{"detailAddr":"","street":"","district":"","city":"","province":"","addrType":""}]} '''
     addP = addParameters()
     addP.add_parameters(centent)
