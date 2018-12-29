@@ -11,7 +11,9 @@ from QuerySQL import QuerySQL
 from addParameters import addParameters
 
 class run:
+
     def __init__(self):
+
         self.con_db = QuerySQL()
         self.key = []
 
@@ -51,6 +53,7 @@ class run:
         server.stop()
         con.close()
         return result
+
     # 返回当前产品的进件规则
     def get_loanroule(self, productid):
         sql = '''获取进件规则脚本'''
@@ -60,9 +63,6 @@ class run:
     def get_openuser(self):
         sql = '''获取产品开户信息'''
         res = run.get_basic_config(sql)
-
-    def deleteAute(self,content):
-        if
 
 
 

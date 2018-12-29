@@ -14,6 +14,9 @@ import json
 class addParameters:
 
     def __init__(self):
+        '''
+        扩展信息名需要在维护
+        '''
         path = os.path.dirname(os.path.abspath('.'))+'/ScriptBuilder'
         self.conf_path = path +'/config.ini'
         self.conf = ConfigParser()
@@ -23,12 +26,9 @@ class addParameters:
 
     def get_config(self):
         para_list = []
-
         config = self.conf.items("LOANINFO")
-
         for i in config:
             para_list.append(i[0])
-
         return para_list
 
     # 比较配置的参数,如果不存在则打印不存在的标签提示
@@ -103,7 +103,6 @@ class addParameters:
         print("*" * 100)
         # 遍历json文件所有的key对应的value
         dic = {}
-
         def json_txt(dic_json):
             if isinstance(dic_json, dict):  # 判断是否是字典类型isinstance 返回True false
                 for key in dic_json:

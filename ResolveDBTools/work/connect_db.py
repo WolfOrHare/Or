@@ -153,7 +153,7 @@ class QuerySQL():
             db.commit()
         except:
             update_result = 'update fail：' + sqlcommand
-        print update_result
+        print(update_result)
 
     # 根据风险等级，到数据库查平台的风险备用金率
     def get_serviceRate(self, data, dbinfo):
@@ -184,7 +184,7 @@ class QuerySQL():
             riskGrade = "B_B"
         sql = "SELECT CONVERT(LEVEL_" + riskGrade + ",CHAR) FROM t_prd_risk_fund WHERE \
 	       PRODUCT_ID='" + productId + "' AND times='" + term + "' ORDER BY create_time DESC LIMIT 1"
-        print sql
+        # print sql
         riskFundRate = self.get_one_value(con, sql)
         server.stop()
         con.close()
@@ -281,7 +281,7 @@ class QuerySQL():
         db_query = self.get_one_value(con, sql)
         if db_query == None:
             value = 0
-            print "t_lon_prop_value表中未查询到" + PROPERTY_NAME + "的记录"
+            print ("t_lon_prop_value表中未查询到" + PROPERTY_NAME + "的记录")
         else:
             value = db_query[0]
         return value
@@ -322,7 +322,7 @@ if __name__ == '__main__':
     result = run.get_one_value(con, sqlcommand)
     server.stop()
     con.close()
-    print result
+    # print result
 
 ##
 # #SSH配置信息

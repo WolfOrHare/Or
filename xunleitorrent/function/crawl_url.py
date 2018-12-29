@@ -10,7 +10,7 @@ from extract import extract
 from config.logger import logger
 
 log = logger("crawl_url").getlog()
-p=ThreadPoolExecutor(10) #创建1个程池中，容纳线程个数为30个；
+p=ThreadPoolExecutor(1) #创建1个程池中，容纳线程个数为30个；
 log.info("启动线程池!!!")
 # Thread.currentThread().setName(ThreadPoolFairEx.renameThread(Thread.currentThread(), this.threadName));
 
@@ -81,8 +81,9 @@ class crawl_url():
         #http://www.chunxiao.tv/
         # album/jiepoushilingyishijianzhinanshengxiushe
         result = requests.get(url)
-        if result.status_code==200 :
-            file_name =  extract.dianying_resource(result)['file_name']
+        print(result.text)
+        file_name = extract.dianying_resource(result)['file_name']
+        if result.status_code==200 and len(file_name) != 0:
             file_content = extract.dianying_resource(result)['file_content']
             # <a href="javascript:;" class="more" style="display: inline;"><s></s>更多</a>
             file_url = extract.dianying_resource(result)['file_url']
